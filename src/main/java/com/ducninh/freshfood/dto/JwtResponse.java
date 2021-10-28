@@ -27,4 +27,11 @@ public class JwtResponse {
         this.username = username;
         this.authorities = authorities;
     }
+
+    public JwtResponse(String token, String username, List<String> roles, Collection<? extends GrantedAuthority> authorities) {
+        this.token = token;
+        this.username = username;
+        this.roles = roles;
+        this.authorities = authorities;
+    }
 }

@@ -19,6 +19,28 @@ spring:
       enabled: true
       max-file-size: 1024MB
       max-request-size: 1024MB
+  # Config mail
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: freshshop2711@gmail.com
+#    password: Freshshop@2711
+#    properties:
+#      mail:
+#        smtp:
+#          socketFactory:
+#            port : 465
+#            class : javax.net.ssl.SSLSocketFactory
+#            fallback : false
+#          auth: true
+#          connectiontimeout : 5000
+#          timeout: 5000
+#          writetimeout: 5000
+#          starttls:
+#            enable : true
+#      debug: true
+#      transport:
+#        protocol: smtp
 
 # Secret JWT APP
 ducninh:
@@ -29,11 +51,3 @@ ducninh:
 # Location resource folder
 location:
   resource: /opt/fresh-food/resource/
-
-# Config mail
-config:
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: freshshop2711@gmail.com
-    password: Freshshop@2711

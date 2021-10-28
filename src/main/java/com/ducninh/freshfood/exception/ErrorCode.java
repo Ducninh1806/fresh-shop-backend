@@ -19,13 +19,15 @@ public enum ErrorCode {
     END_DATE_NOT_EMPTY("11", "YOU CAN'T EMPTY FIELD END_DATE"),
     USER_IS_ACITIVED("011","The user has been activated"),
     BAD_REQUEST("404","BAD_REQUEST"),
-    PACKAGE_INFO_NAME_EXISTED("013", "PackageInfo name existed"),
     DELETE_FILE_FAILED("014", "Delete file false"),
     INVALID_IMAGE("015", "INVALID IMAGE"),
     IMAGE_EXCEEDS_LIMIT("016", "Number of image exceeds limit"),
     ATTACHMENT_INVALID("017", "ATTACHMENT INVALID"),
     EMAIL_NOT_SENT("018", "Email apply job is not sent"),
-    FORMAT_NOT_SUPPORT("019", "FORMAT NOT SUPPORT")
+    FORMAT_NOT_SUPPORT("019", "FORMAT NOT SUPPORT"),
+    NAME_EXISTED("020", "NAME EXIST"),
+    PRODUCT_NOT_EXISTED("021", "PRODUCT_NOT_EXISTED"),
+
     ;
     private String code;
     private String message;
